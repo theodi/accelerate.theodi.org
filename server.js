@@ -13,7 +13,7 @@ const targetDomain = process.env.TARGETDOMAIN || 'open-data-essentials.learndata
 // Redirect all requests from source to target domain
 app.get('*', (req, res) => {
   // Build the new URL by replacing the source domain with the target domain
-  const newUrl = req.originalUrl.replace(sourceDomain, targetDomain);
+  const newUrl = targetDomain + req.originalUrl.replace(sourceDomain, targetDomain);
 
   // Redirect to the new URL while preserving query parameters
   res.redirect(301, `https://${newUrl}`);

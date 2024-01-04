@@ -1,21 +1,21 @@
 {
-  "name": "accelerate.theodi.org",
+  "name": "simple-site-redirector",
   "version": "1.0.0",
-  "description": "Redirect server to new location",
+  "description": "Redirect request to new location while preserving paths",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/theodi/accelerate.theodi.org.git"
+    "url": "git+https://github.com/theodi/simple-site-redirector.git"
   },
   "author": "David Tarrant",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/theodi/accelerate.theodi.org/issues"
+    "url": "https://github.com/theodi/simple-site-redirector/issues"
   },
-  "homepage": "https://github.com/theodi/accelerate.theodi.org#readme",
+  "homepage": "https://github.com/theodi/simple-site-redirector#readme",
   "dependencies": {
     "dotenv": "^16.3.1",
     "express": "^4.18.2"
